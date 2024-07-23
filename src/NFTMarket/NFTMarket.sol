@@ -13,7 +13,7 @@ interface INFTMarketEvents {
         uint256 price,
         address token
     );
-    event NFTBought(
+    event NFTSold(
         address indexed buyer,
         address indexed nftAddress,
         uint256 indexed tokenId,
